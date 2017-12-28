@@ -269,3 +269,35 @@ input {
     position: relative;
     z-index: 9999;
 }
+
+.polaroid {
+float: left;
+  width: 200px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  margin-bottom: 25px;
+
+}
+.textprop {
+float: left;
+  text-indent: 30px;  
+  }
+
+.container {
+float:right;
+  text-align: left;
+    width: 1080px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 20px;
+    
+
+}
+.simplepad {
+    padding: 50px 50px 
+}
+
+.tweet{
+    padding-top: 10px;
+ box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.05), 0 1px 1px 0 rgba(0, 0, 0, 0.1);   
+    
+}
