@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body onload="myFunction()">
-
+<div class="bgc" id="loader1"></div>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
 
@@ -41,7 +41,8 @@
     
     <div class="spinner" id="loader"></div>
     
-    <div style="display:none;" id="myDiv">
+    
+    <div id="myDiv">
   
 <div class="row profile">
       <div class="col-md-3">
@@ -151,7 +152,8 @@ function myFunction() {
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+ document.getElementById("loader1").style.display = "none";
+    //document.getElementById("myDiv").style.display = "block";
 }
 </script>
 </body>
